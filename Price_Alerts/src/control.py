@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from src.API.cryptoCompareAPI import CryptoCompareAPI
 from src.API.twilioAPI import TwilioAPI
 from src.alerts.load_alerts import LoadAlerts
