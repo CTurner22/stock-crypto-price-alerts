@@ -1,0 +1,9 @@
+{
+  "alerts": [
+    {
+      "ticker": "BTC",
+      "upper_bound": "10900",
+      "lower_bound": "10000"
+    }
+  ]
+}
