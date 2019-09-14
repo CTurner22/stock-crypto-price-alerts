@@ -16,8 +16,8 @@ class TwilioAPI:
     def send_message(message):
         message = TwilioAPI.client.messages.create(
                                       body=message,
-                                      from_='+14805088163',
-                                      to='+19707569876'
+                                      from_='Your Twilio Number',
+                                      to='other number'
                                   )
 
         return message.sid
